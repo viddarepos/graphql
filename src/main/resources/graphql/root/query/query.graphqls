@@ -1,0 +1,4 @@
+type Query {
+    findPaged(page: Int, size: Int): [Person]
+    findOne(id: ID): Person
+}

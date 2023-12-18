@@ -1,0 +1,9 @@
+input PersonRequestDTO{
+    firstName: String,
+    lastName: String,
+    address: String,
+    age: Int
+}
+input PersonUpdateDTO {
+    firstName: String
+}

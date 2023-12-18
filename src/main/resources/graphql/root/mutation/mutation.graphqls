@@ -1,0 +1,5 @@
+type Mutation {
+    create(person: PersonRequestDTO): Person
+    update(updatedPerson: PersonUpdateDTO!, id: ID): Person
+    delete(id: ID!): Person
+}
